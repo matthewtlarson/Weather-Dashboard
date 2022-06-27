@@ -1,3 +1,6 @@
+ul{
+  padding-left:10px;
+}
 
 .header {
   background: linear-gradient(to right, rgb(115, 115, 250), rgb(1, 0, 73));
@@ -20,13 +23,51 @@
 }
 
 .search {
-  height:50px;
-  width: 215px;
-  font-size:14pt;
+  height:40px;
+  position: absolute;
+  width: 300px;
+  font-size:12pt;
   color: black;
   display: flex;
   justify-content: flex-start;
   font-size: 20px;
   padding-left: 10px;
   font-family: sans-serif;
+  border-radius: 0.5rem;
 }
+
+.pressSearch {
+  background-color: rgb(115, 115, 250);
+  color: white;
+  width:315px;
+  height: 40px;
+  font-size: 20px;
+  margin-top: 60px;
+  margin-left: 10px;
+  font-family: sans-serif;
+  border-radius: 0.5rem;
+}
+
+.line {
+  display: flex;
+  border:1px solid black;
+  width: 315px;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+.cityList{
+  color: rgb(0, 0, 0);
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  width:315px;
+  height: 40px;
+  font-size: 20px;
+  margin-top: 30px;
+  padding-top: 10px;
+  font-family: sans-serif;
+  border-radius: 0.5rem;
+  background-color: rgb(199, 199, 199);
+}
+
