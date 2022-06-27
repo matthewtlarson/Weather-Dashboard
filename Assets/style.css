@@ -1,0 +1,32 @@
+
+.header {
+  background: linear-gradient(to right, rgb(115, 115, 250), rgb(1, 0, 73));
+  height: 50px;
+  margin: auto;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-top: 15px;
+}
+
+.secondHeader {
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 30px;
+  padding-left: 10px;
+  font-family: sans-serif;
+}
+
+.search {
+  height:50px;
+  width: 215px;
+  font-size:14pt;
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+  padding-left: 10px;
+  font-family: sans-serif;
+}
