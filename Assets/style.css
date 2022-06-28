@@ -5,6 +5,7 @@ ul{
 .header {
   background: linear-gradient(to right, rgb(115, 115, 250), rgb(1, 0, 73));
   height: 50px;
+  font-size: 35px;
   margin: auto;
   color: white;
   display: flex;
@@ -54,6 +55,7 @@ ul{
   width: 315px;
   margin-left: 10px;
   margin-top: 30px;
+  position: absolute;
 }
 
 .cityList{
@@ -71,3 +73,51 @@ ul{
   background-color: rgb(199, 199, 199);
 }
 
+.first {
+  float:left;
+  position: absolute;
+}
+
+.second {
+  display: flex;
+  float: right;
+  border: 1px solid black;
+  font-size: 20px;
+  height: 300px;
+  width: 1145px;
+  padding-left: 30px;
+  margin-left: 360px;
+  position: absolute;
+  top: 10px;
+}
+
+.third {
+  position: absolute;
+}
+
+.forecastTitle{
+    display: flex;
+    float: right;
+    font-size: 32px;
+    height: 300px;
+    width: 1145px;
+    padding-left: 30px;
+    margin-left: 360px;
+    position: absolute;
+    top: 315px;
+}
+
+.temp{
+  list-style-type: none;
+  align-items: flex-start;
+  padding-top: 65px;
+}
+
+.tempLi {
+  margin-top: 20px;
+}
+
+.cityWeather{
+  display: flex;
+  position: absolute;
+}
