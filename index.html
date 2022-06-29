@@ -11,10 +11,10 @@
   <h1 class="header">Weather Dashboard</h1>
   <div class="third">
     <h2 class="secondHeader">Search for a City:</h2>
-    <form class="search">
-      <input type="text" placeholder="San Diego" class="search">
+    <form>
+      <input type="text" placeholder="San Diego" id="search">
     </form>
-    <button class="pressSearch">Search</button>
+    <button type="submit" id="pressSearch">Search</button>
     <div class="line"></div>
     <div>
       <ul class="first">
@@ -39,6 +39,13 @@
     </div>
     <div>
       <h2 class="forecastTitle">5-Day Forecast</h2>
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Weather Forecast</h5>
+          <h6 class="card-subtitle mb-2 text-muted">City Name</h6>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
     </div>
   </div>
   <script src="./Assets/javascript.js"></script>

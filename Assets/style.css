@@ -23,7 +23,7 @@ ul{
   font-family: sans-serif;
 }
 
-.search {
+#search {
   height:40px;
   position: absolute;
   width: 300px;
@@ -37,7 +37,7 @@ ul{
   border-radius: 0.5rem;
 }
 
-.pressSearch {
+#pressSearch {
   background-color: rgb(115, 115, 250);
   color: white;
   width:315px;
@@ -120,4 +120,15 @@ ul{
 .cityWeather{
   display: flex;
   position: absolute;
+}
+
+.card{
+  display: flex;
+  float: right;
+  font-size: 32px;
+  width: 1145px;
+  padding-left: 30px;
+  margin-left: 360px;
+  position: absolute;
+  top: 370px;
 }
