@@ -16,8 +16,22 @@ btn.addEventListener("click", function (event) {
     .then(function (data) {
       var list = document.createElement("li");
       console.log(data.main);
-      var header = document.createElement("h3");
+      var header = document.createElement("h2");
+      header.textContent = data.name;
+      var humidity = document.createElement("p");
+      var temp = document.createElement("p");
+      var uv = document.createElement("p");
+      var wind = document.createElement("p");
+      humidity.textContent = data.main.humidity;
+      wind.textContent = "Wind " + data.wind.speed + " MPH";
+      temp.textContent = data.main.temp;
+      list.appendChild(header);
+      list.appendChild(humidity);
+      list.appendChild(temp);
+      list.appendChild(wind);
+      weather.appendChild(list);
     });
+
   var weatherUrl =
     "https://api.openweathermap.org/data/2.5/forecast?q=" +
     cityName.value +
