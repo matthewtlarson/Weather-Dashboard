@@ -1,12 +1,9 @@
 # Weather-Dashboard
-GIVEN a weather dashboard with form inputs
-WHEN I search for a city
-THEN I am presented with current and future conditions for that city and that city is added to the search history
-WHEN I view current weather conditions for that city
-THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index
-WHEN I view the UV index
-THEN I am presented with a color that indicates whether the conditions are favorable, moderate, or severe
-WHEN I view future weather conditions for that city
-THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
-WHEN I click on a city in the search history
-THEN I am again presented with current and future conditions for that city
+First I created a skeleton that resembled the mock-up;
+Then I proceeded to add elements with id's and classes to reference later in CSS;
+I linked the following documents: Javascript.js, bootstrap, css, and made sure these links were working;
+I created buttons and a search tool for user input to link later in my javascript;
+Then I finished building the skeleton and added styles into my css sheet;
+After everything was styled correctly, I went into javascript and created my functions;
+I made multiple functions to retrieve data from weathermap and got the data to present itself in my console based on user input;
+Then I displayed the data from the user input, into my card element from HTML, creating a user friendly weather app.

@@ -4,12 +4,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="stylesheet" href="./Assets/style.css">
-  <title>Weather Dashboard</title>
+<title>Weather Dashboard</title>
 </head>
 <body>
   <h1 class="header">Weather Dashboard</h1>
-  <div class="third">
+
+<div class="mainbody">
+
+  <div>
     <h2 class="secondHeader">Search for a City:</h2>
     <form>
       <input type="text" placeholder="San Diego" id="search">
@@ -28,26 +32,36 @@
         <li class="cityList">Atlanta</li>
       </ul>
     </div>
+  </div>
+
+
+  <div class="mainsecond">
+
     <div class="second">
-      <h2 class="cityWeather">Atlanta (3/30/2021) &#9729;</h2>
+      <h2 class="cityWeather" style="width: 150px;">Atlanta (3/30/2021) &#9729;</h2>
       <ul class="temp">
         <li class="tempLi">Temp: 74.01 F</li>
         <li class="tempLi">Wind: 6.67 MPH</li>
         <li class="tempLi">Humidity: 46%</li>
         <li class="tempLi">UV Index: 0.47</li>
       </ul>
-    </div>
-    <div>
+      </div>
+
+
+    <div class="test">
       <h2 class="forecastTitle">5-Day Forecast</h2>
       <div class="card" style="width: 18rem;">
         <div class="card-body">
           <h5 class="card-title">Weather Forecast</h5>
           <h6 class="card-subtitle mb-2 text-muted">City Name</h6>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
         </div>
-      </div>
     </div>
+
   </div>
+</div>
+
   <script src="./Assets/javascript.js"></script>
 </body>
 </html>

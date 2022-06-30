@@ -25,7 +25,6 @@ ul{
 
 #search {
   height:40px;
-  position: absolute;
   width: 300px;
   font-size:12pt;
   color: black;
@@ -40,7 +39,6 @@ ul{
 #pressSearch {
   background-color: rgb(115, 115, 250);
   color: white;
-  width:315px;
   height: 40px;
   font-size: 20px;
   margin-top: 60px;
@@ -52,10 +50,9 @@ ul{
 .line {
   display: flex;
   border:1px solid black;
-  width: 315px;
+  /* width: 315px; */
   margin-left: 10px;
   margin-top: 30px;
-  position: absolute;
 }
 
 .cityList{
@@ -73,44 +70,22 @@ ul{
   background-color: rgb(199, 199, 199);
 }
 
-.first {
-  float:left;
-  position: absolute;
-}
 
 .second {
   display: flex;
-  float: right;
-  border: 1px solid black;
-  font-size: 20px;
-  height: 300px;
-  width: 1145px;
-  padding-left: 30px;
-  margin-left: 360px;
-  position: absolute;
-  top: 10px;
+  border: 5px solid rgb(0, 0, 0);
+  flex-direction: column;
 }
 
-.third {
-  position: absolute;
-}
 
 .forecastTitle{
     display: flex;
-    float: right;
     font-size: 32px;
-    height: 300px;
-    width: 1145px;
-    padding-left: 30px;
-    margin-left: 360px;
-    position: absolute;
-    top: 315px;
 }
 
 .temp{
   list-style-type: none;
   align-items: flex-start;
-  padding-top: 65px;
 }
 
 .tempLi {
@@ -119,16 +94,27 @@ ul{
 
 .cityWeather{
   display: flex;
-  position: absolute;
+  font-size: 32px;
 }
 
 .card{
   display: flex;
-  float: right;
   font-size: 32px;
-  width: 1145px;
-  padding-left: 30px;
-  margin-left: 360px;
-  position: absolute;
-  top: 370px;
+}
+
+.mainbody{
+  display:flex;
+  flex-direction: row;
+  border: 5px solid red;
+}
+
+.mainsecond{
+  display: flex;
+  flex-direction: column;
+  border: 5px solid blue;
+  width: 100%;
+}
+
+.test{
+  border: 5px solid red;
 }
